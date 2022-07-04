@@ -69,3 +69,14 @@ h1, h3, figcaption {
   border-radius: 15px;
   padding: 5px;
 }
+
+footer {
+  position: fixed;
+  height: 30px;
+  background-color: #555555;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
