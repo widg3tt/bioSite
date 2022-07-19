@@ -6,64 +6,83 @@
 <head>
     <meta charset="UTF-8">
     <title>Hobbies | Landon Jones</title>
-
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="bioSite.css">
-
-    <!-- Google fonts for Oswald -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
+<body>
 <header>
-  <nav>
-    <ul>
-      <li class="logo">Landon Jones</li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="hobbies.html">Hobbies</a></li>
-    </ul>
-</nav>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Landon Jones</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCg-VpLM7KuWl5FsRKljxDcw" target="_blank">Landon's YouTube Channel</a>
+          </li>
+      </div>
+    </div>
+  </nav>
 </header>
 <main>
-<div id="container">
 
-    <h1 id="page-title">Hobbies</h1>
-
-    <div id="image-gallery">
-        <div class="gallery-item">
-            <h3 class="gallery-title">Playing Chess</h3>
-
-            <figure>
-                <img src="images/hobby_1.jpg" height="50px">
-
-                <figcaption>(Credit: Kyle Jones)</figcaption>
-            </figure>
-
-        </div>
-
-        <div class="gallery-item">
-            <h3 class="gallery-title">Video Games and Rubix Cubes</h3>
-
-            <figure>
-                <img src="images/hobby_2.jpg" alt="">
-
-                <figcaption>(Credit: Kyle Jones)</figcaption>
-            </figure>
-
-        </div>
-
-        <div class="gallery-item">
-            <h3 class="gallery-title">Watching Movies</h3>
-
-            <figure>
-                <img src="images/hobby_3.jpg" alt="">
-
-                <figcaption>(Credit: Kyle Jones)</figcaption>
-            </figure>
-
-        </div>
+  <div class="container marketing">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Playing chess.</h2>
+        <p class="lead"></p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/hobby_1.jpg" height="500px">
+      </div>
     </div>
-</div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Video games and Rubix cubes.</h2>
+        <p class="lead"></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="images/hobby_2.jpg" height="500px">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Watching movies.</h2>
+        <p class="lead"></p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/hobby_3.jpg" height="500px">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+  </div>
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2022 Kyle Jones &middot; <a href="https://www.youtube.com/channel/UCg-VpLM7KuWl5FsRKljxDcw" target="_blank">YouTube</a>
+  </footer>
 </main>
-<footer>Author: Kyle Jones | <a href="mailto:kyjones@my365.bellevue.edu">kyjones@my365.bellevue.edu</a></footer>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

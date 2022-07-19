@@ -6,46 +6,68 @@
 <head>
     <meta charset="UTF-8">
     <title>About | Landon Jones</title>
-
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="bioSite.css">
-
-    <!-- Google fonts for Oswald -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
+<body>
 <header>
-  <nav>
-    <ul>
-      <li class="logo">Landon Jones</li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="hobbies.html">Hobbies</a></li>
-    </ul>
-</nav>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Landon Jones</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobbies.html">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCg-VpLM7KuWl5FsRKljxDcw" target="_blank">Landon's YouTube Channel</a>
+          </li>
+      </div>
+    </div>
+  </nav>
 </header>
 <main>
-<div id="container">
-    <h1 id="page-title">About</h1>
-    <figure>
-      <img src="images/portrait.jpg" height="50px">
-    </figure>
-    <p class="bio">
-      Landon Jones is 12 years old and lives in Edmond, OK. He was born in 2009 in Tahlequah, OK, and is a typical boy in almost every way.
-      He loves McDonalds, chocolate milk, playing video games of all kinds, streaming, listening to music, as well as watching many popular
-      shows and YouTube channels.
-    </p>
-    <p class="bio">
-      Landon also enjoys playing trumpet for his school band and last school year placed 4th chair in the whole state at competition against his peers.
-      Landon has a large, loving family and many friends who enjoy many of the same activities that he does. Other interests and activities that Landon
-      enjoys and is very skilled at are chess and solving Rubix cubes of all shapes and sizes very quickly.
-    </p>
-    <p class="bio" style="padding-bottom: 10%;">
-      At this point in his life, Landon wishes to become a medical doctor when he is an adult and realizes the sacrificing and dedication it will take to
-      complete his goal. He says he wishes to become a doctor because he wishes to help people feel better when they are hurt or sick.
-    </p>
-</div>
-
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">About</h1>
+        <img class="bd-placeholder-img rounded-circle" width="300" height="300" src="images/portrait.jpg">
+        <hr>
+        <p style="text-align: left;">
+          Landon Jones is 13 years old and lives in Edmond, OK. He was born in 2009 in Tahlequah, OK, and is a typical boy in almost every way.
+          He loves McDonalds, chocolate milk, playing video games of all kinds, streaming, listening to music, as well as watching many popular
+          shows and YouTube channels.
+        </p>
+        <p style="text-align: left;">
+          Landon also enjoys playing trumpet for his school band and last school year placed 4th chair in the whole state at competition against his peers.
+          Landon has a large, loving family and many friends who enjoy many of the same activities that he does. Other interests and activities that Landon
+          enjoys and is very skilled at are chess and solving Rubix cubes of all shapes and sizes very quickly.
+        </p>
+        <p style="text-align: left;">
+          At this point in his life, Landon wishes to become a medical doctor when he is an adult and realizes the sacrificing and dedication it will take to
+          complete his goal. He says he wishes to become a doctor because he wishes to help people feel better when they are hurt or sick.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2022 Kyle Jones
+  </footer>
 </main>
-<footer>Author: Kyle Jones | <a href="mailto:kyjones@my365.bellevue.edu">kyjones@my365.bellevue.edu</a></footer>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
